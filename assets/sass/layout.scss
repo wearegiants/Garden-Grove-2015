@@ -578,7 +578,7 @@ footer i {
 }
 
 .page-content {
-  color: #50AB42;
+  color: $duskBlue;
   font-size: 22px;
 }
 
@@ -592,7 +592,7 @@ footer i {
 }
 
 .page-content strong {
-  color: #F4834E;
+  color: darken($duskBlue,5%);
 }
 
 .page-content img {
@@ -607,6 +607,11 @@ footer i {
 
 .page-content ul li {
   margin-bottom: 15px;
+}
+
+.page-content a {
+  text-decoration: underline;
+  color: darken($duskBlue,5%);
 }
 
 .event-group {
@@ -643,7 +648,7 @@ footer i {
 }
 
 #side {
-  color: #50AB42;
+  color: $duskBlue;
   font-size: 22px;
 }
 
@@ -690,7 +695,7 @@ footer i {
 }
 
 .mc4wp-form input.btn {
-  background: #50AB42;
+  background: $duskBlue;
   border-radius: 3px;
   color: #fff;
   text-transform: uppercase;
