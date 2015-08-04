@@ -1,0 +1,184 @@
+/* @override 
+	http://craigs-imac.local:5757/assets/css/mediaqueries.css */
+
+/* Landscape mobile & down */
+@media (max-width: 30em) {
+  body {
+    padding-top: 54px!important;
+  }
+  #content {
+    padding: 0 20px;
+  }
+  #section_home {
+    margin: 0 -20px;
+  }
+  #section_home .side.bit-4 {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  #section_home .side span.thehand {
+    font-size: 68px;
+  }
+  #wrapHome, #wrapLang {
+    width: 10%;
+  }
+  #wrapNav {
+    width: 80%;
+  }
+  .sm-hide {
+    display: none;
+  }
+  .event-item > .bit-4 .bit-4 {
+    width: auto;
+  }
+  .event-item > .bit-4 .bit-75 {
+    width: auto;
+  }
+  .event-group .event-desc h3,
+  .event-group .event-desc h4 {
+    display: block;
+  }
+  #section_desc .page-content br {
+    display: none;
+  }
+  footer {
+    padding: 20px!important;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  
+  footer br {
+    display: none;
+  }
+  footer .widget,
+  footer #text-2 {
+    width: 100%!important;
+  }
+  footer .text-right {
+    text-align: left;
+  }
+  .slicknav_menu {
+    display: block!important;
+    position: relative;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* Portrait tablet to landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  body {
+    padding-top: 54px!important;
+  }
+  #content {
+    padding: 0 20px;
+  }
+  #section_home .side.bit-4 {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  #section_home {
+    margin: 0 -20px;
+  }
+  #section_home .side span.thehand {
+    font-size: 68px;
+  }
+  #section_home .middle img {
+    width: 100%;
+  }
+  #wrapHome, #wrapLang {
+    width: 10%;
+  }
+  #wrapNav {
+    width: 80%;
+  }
+  .sm-hide {
+    display: none;
+  }
+  .event-item > .bit-4 {
+    width: 100%;
+  }
+  .event-item > .bit-75 {
+    width: 100%;
+  }
+  .event-item > .bit-4 .bit-4 {
+    width: auto;
+  }
+  .event-item > .bit-4 .bit-75 {
+    width: auto;
+  }
+  .event-group .event-desc h3,
+  .event-group .event-desc h4 {
+    display: inline;
+    font-size: 16px!important;
+    margin-right: 8px;
+  }
+  #section_desc .page-content br {
+    display: none;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  footer {
+    padding: 20px!important;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  
+  footer br {
+  }
+  footer .widget,
+  footer #text-2 {
+    width: 100%!important;
+  }
+  footer .text-right {
+    text-align: left;
+  }
+  #header {
+    display: none ;
+  }
+  .slicknav_menu {
+    display: block!important;
+    position: relative;
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #31C0DC!important;
+  }
+}
+
+/* Landscape to small desktop */
+@media (min-width: 50em) and (max-width: 68.750em) {
+  #content {
+    padding: 0 0;
+  }
+  #wrapHome, #wrapLang {
+    width: 10%;
+  }
+   #section_home .side {
+     font-size: 18px!important;
+   }
+  #section_home .side span.thehand {
+    font-size: 60px;
+  }
+  #wrapNav {
+    width: 80%;
+  }
+  .event-item > .bit-4 {
+    width: 25%;
+  }
+  .event-item > .bit-75 {
+    width: 75%;
+  }
+  .event-item > .bit-4 .bit-4 {
+    width: auto;
+  }
+  .event-item > .bit-4 .bit-75 {
+    width: auto;
+  }
+}
