@@ -1,13 +1,14 @@
 <?php Themewrangler::setup_page();get_header(/***Template Name: Home */); ?>
 
 <?php 
-  $image_map   = get_field('route_map');
+  $image_map      = get_field('route_map');
   $image_events   = get_field('events_programming');
   $image_involved = get_field('get_involved');
   $image_mailing  = get_field('join_our_mailing_list');
   $image_gallery  = get_field('photo_gallery');
   $image_about    = get_field('about_us');
-  $image_logo    = get_field('home_graphic');
+  $image_logo     = get_field('home_graphic');
+  $external_image = get_field('external_link_image');
   
   $size = 'large';
   $medium_map = $image_map['sizes'][ $size ];
@@ -17,6 +18,7 @@
   $medium_gallery  = $image_gallery['sizes'][ $size ];
   $medium_about    = $image_about['sizes'][ $size ];
   $medium_logo     = $image_logo['sizes'][ $size ];
+  $medium_bg       = $external_image['sizes'][ $size ];
   
 ?>
 
@@ -85,6 +87,13 @@
         <a class="meta" href="/about/about-reimagine-garden-grove/">About Re:Imagine Garden Grove<span>Learn More</span></a>
         <div class="thumb gardengreen"></div>
       </div></div>
+
+      <?php if(get_field('module_toggle')):?>
+      <div class="bit-1"><div class="item" id="block-about" style="background-image: url(<?php echo $medium_bg ; ?>);">
+        <a class="meta" href="<?php the_field('external_link_url'); ?>"><?php the_field('external_link_title');?><span>Learn More</span></a>
+        <div class="thumb gardengreen"></div>
+      </div></div>
+      <?php endif; ?>
       
     </div>
   </div><!--Content-->
