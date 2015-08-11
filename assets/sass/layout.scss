@@ -70,6 +70,11 @@ body {
   height: auto;
 }
 
+.centered {
+  display: block;
+  margin: auto;
+}
+
 .color-orangegrove {
   color: #F4834E;
 }
@@ -236,11 +241,46 @@ hr {
 
   &_city {
 
-    min-height: 100px;
     background-color: $duskBlue;
-    background-image: url('/assets/img/city.png');
-    background-size: auto 100%;
-    background-position: center;
+    //background-image: url('/assets/img/city.png');
+    min-height: 100%;
+    margin-top: -60px;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    .section {
+
+      min-height: 200px;
+      float: left;
+      background-size: auto 280%;
+      background-position: bottom;
+      position: relative;
+      background-color: $duskBlue;
+      color: #fff;
+
+      &-left {
+        width: 35%;
+        background-image: url('/assets/img/section_left.svg');
+        background-position: left bottom;
+      }
+
+      &-middle {
+        width: 30%;
+        padding-top: 60px;
+        background-image: url('/assets/img/section_middle.svg');
+      }
+
+      &-right {
+        width: 35%;
+        background-image: url('/assets/img/section_right.svg');
+        background-position: right bottom;
+      }
+
+    }
 
   }
 
@@ -248,7 +288,7 @@ hr {
 
 #section_home {
   background: $duskBlue;
-  min-height: 600px;
+  min-height: 580px;
   position: relative;
   overflow: hidden;
 }
