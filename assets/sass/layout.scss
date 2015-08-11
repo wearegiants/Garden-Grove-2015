@@ -12,6 +12,12 @@ $lateNight:   #045477;
 $white:       #fff;
 $black:       #111;
 
+$min: "screen and (min-width: 300px)";
+$mobile: "screen and (min-width: 500px)";
+$tablet: "screen and (min-width: 740px)";
+$desktop: "screen and (min-width: 980px)";
+$max: "screen and (min-width: 1220px)";
+
 body {
   
   font-family: 'Europa', 'Helvetica';
@@ -246,6 +252,14 @@ hr {
     min-height: 100%;
     margin-top: -60px;
 
+    @media #{$min} {
+      margin: 0 -20px;
+    }
+
+    @media #{$desktop} {
+      margin: 0 auto;
+    }
+
     &:after {
       content: '';
       display: block;
@@ -254,30 +268,71 @@ hr {
 
     .section {
 
-      min-height: 200px;
       float: left;
-      background-size: auto 280%;
       background-position: bottom;
       position: relative;
       background-color: $duskBlue;
       color: #fff;
 
+      @media #{$min} {
+        background-size: auto 200%;
+        min-height: 70px;
+      }
+
+      @media #{$mobile} {
+        background-size: auto 200%;
+        min-height: 100px;
+      }
+
+      @media #{$tablet} {
+        background-size: auto 220%;
+        min-height: 200px;
+      }
+
+      @media #{$desktop} {
+        background-size: auto 240%;
+      }
+
+      @media #{$max} {
+        background-size: auto 280%;
+      }
+
       &-left {
-        width: 35%;
+        
         background-image: url('/assets/img/section_left.svg');
         background-position: left bottom;
+
+        @media #{$min} {
+          width: 25%;
+        }
+        @media #{$tablet} {
+          width: 35%;
+        }
       }
 
       &-middle {
-        width: 30%;
-        padding-top: 60px;
+        
         background-image: url('/assets/img/section_middle.svg');
+        @media #{$min} {
+          width: 50%;
+          padding-top: 10px;
+        }
+        @media #{$tablet} {
+          width: 30%;
+          padding-top: 60px;
+        }
       }
 
       &-right {
         width: 35%;
         background-image: url('/assets/img/section_right.svg');
         background-position: right bottom;
+        @media #{$min} {
+          width: 25%;
+        }
+        @media #{$tablet} {
+          width: 35%;
+        }
       }
 
     }
@@ -288,9 +343,21 @@ hr {
 
 #section_home {
   background: $duskBlue;
-  min-height: 580px;
   position: relative;
   overflow: hidden;
+
+  @media #{$tablet} {
+    min-height: 430px;
+  }
+
+  @media #{$desktop} {
+    min-height: 500px;
+  }
+
+  @media #{$max} {
+    min-height: 580px;
+  }
+
 }
 
 #section_home .frame {

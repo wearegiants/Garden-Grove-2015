@@ -235,41 +235,120 @@ hr {
   min-height: 100%;
   margin-top: -60px;
 }
+@media screen and (min-width: 300px) {
+  #section_city {
+    margin: 0 -20px;
+  }
+}
+@media screen and (min-width: 980px) {
+  #section_city {
+    margin: 0 auto;
+  }
+}
 #section_city:after {
   content: '';
   display: block;
   clear: both;
 }
 #section_city .section {
-  min-height: 200px;
   float: left;
-  background-size: auto 280%;
   background-position: bottom;
   position: relative;
   background-color: #0B7791;
   color: #fff;
 }
+@media screen and (min-width: 300px) {
+  #section_city .section {
+    background-size: auto 200%;
+    min-height: 70px;
+  }
+}
+@media screen and (min-width: 500px) {
+  #section_city .section {
+    background-size: auto 200%;
+    min-height: 100px;
+  }
+}
+@media screen and (min-width: 740px) {
+  #section_city .section {
+    background-size: auto 220%;
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 980px) {
+  #section_city .section {
+    background-size: auto 240%;
+  }
+}
+@media screen and (min-width: 1220px) {
+  #section_city .section {
+    background-size: auto 280%;
+  }
+}
 #section_city .section-left {
-  width: 35%;
   background-image: url("/assets/img/section_left.svg");
   background-position: left bottom;
 }
+@media screen and (min-width: 300px) {
+  #section_city .section-left {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 740px) {
+  #section_city .section-left {
+    width: 35%;
+  }
+}
 #section_city .section-middle {
-  width: 30%;
-  padding-top: 60px;
   background-image: url("/assets/img/section_middle.svg");
+}
+@media screen and (min-width: 300px) {
+  #section_city .section-middle {
+    width: 50%;
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 740px) {
+  #section_city .section-middle {
+    width: 30%;
+    padding-top: 60px;
+  }
 }
 #section_city .section-right {
   width: 35%;
   background-image: url("/assets/img/section_right.svg");
   background-position: right bottom;
 }
+@media screen and (min-width: 300px) {
+  #section_city .section-right {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 740px) {
+  #section_city .section-right {
+    width: 35%;
+  }
+}
 
 #section_home {
   background: #0B7791;
-  min-height: 580px;
   position: relative;
   overflow: hidden;
+}
+@media screen and (min-width: 740px) {
+  #section_home {
+    min-height: 430px;
+  }
+}
+@media screen and (min-width: 980px) {
+  #section_home {
+    min-height: 500px;
+  }
+}
+@media screen and (min-width: 1220px) {
+  #section_home {
+    min-height: 580px;
+  }
 }
 
 #section_home .frame {
