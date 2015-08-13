@@ -233,16 +233,21 @@ hr {
 #section_city {
   background-color: #0B7791;
   min-height: 100%;
-  margin-top: -60px;
 }
 @media screen and (min-width: 300px) {
   #section_city {
     margin: 0 -20px;
   }
 }
+@media screen and (min-width: 740px) {
+  #section_city {
+    margin-top: -120px;
+  }
+}
 @media screen and (min-width: 980px) {
   #section_city {
     margin: 0 auto;
+    margin-top: -120px;
   }
 }
 #section_city:after {
@@ -495,6 +500,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: .8;
 }
 
 #section_content .item:hover .thumb {
@@ -990,6 +996,25 @@ footer i {
     display: block;
   }
 }
+.mc4wp-form {
+  position: relative;
+}
+.mc4wp-form-success {
+  height: 60px;
+}
+.mc4wp-alert {
+  text-align: center;
+  clear: both;
+  line-height: 1.4;
+  margin-top: 10px;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+}
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.

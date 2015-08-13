@@ -16,6 +16,11 @@ else : endif; ?>
 <div class="bit-66" id="main">
 <?php get_template_part('templates/page', 'content'); ?>
 <?php include('templates/flex-content.php'); ?>
+
+<?php if(is_page(68)): ?>
+<?php include locate_template('templates/sponsors.php');?>
+<?php endif; ?>
+
 </div>
 <div class="bit-3" id="side"><?php get_sidebar(); ?></div>
 </div>

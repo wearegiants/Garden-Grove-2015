@@ -29,9 +29,10 @@
       <div class="bit-2 middle">
         <br>
         <img class="img-responsive centered" src="/assets/img/gg-tagline.svg" alt="Garden Grove Re:Imagined" />
-        <img class="img-responsive" src="<?php echo $medium_logo; ?>" alt="Garden Grove Re:Imagined" />
+        <img class="img-responsive" src="<?php echo $medium_logo; ?>" alt="Garden Grove Re:Imagined" /><br>
+        <img class="img-responsive centered" src="/assets/img/gg-tagline_alt.svg" alt="Garden Grove Re:Imagined" />
       </div>
-      <div class="bit-4 side right text-center color-towergreen"><p>Join the fun<span class="thehand">OCT 10, 2015</span>3pm-10pm</p></div>
+      <div class="bit-4 side right text-center color-towergreen"><p>Saturday<span class="thehand">OCT 10, 2015</span>3pm-10pm</p></div>
     </div>
     <div id="parallax">
       <ul id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
@@ -44,7 +45,7 @@
 
   <div id="section_city">
     <div class="section section-left"></div>
-    <div class="section section-middle text-center"><span><img class="img-responsive centered" src="/assets/img/gg-tagline_alt.svg" alt="Garden Grove Re:Imagined" /></span></div>
+    <div class="section section-middle text-center"><span></span></div>
     <div class="section section-right"></div>
   </div>
   

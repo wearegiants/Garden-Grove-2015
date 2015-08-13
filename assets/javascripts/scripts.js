@@ -70,7 +70,9 @@ SmartAjax_load('/assets/javascripts', function(){
     animation:   {opacity:'show',height:'show'},
   });
   
-  $('#scene').parallax();
+  $('#scene').parallax({
+    forceHeight: false
+  });
   
   
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
