@@ -8,7 +8,11 @@ if( have_rows('events_and_programming') ):
 
         if( get_row_layout() == 'event_block' ):
 
-          include('flex/events.php');
+          if(get_sub_field('publish')):
+
+            include('flex/events.php');
+
+          endif;
 
         elseif( get_row_layout() == 'download' ): 
 
