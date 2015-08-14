@@ -155,6 +155,7 @@ SmartAjax_load('/assets/javascripts', function(){
 			},100);
 			thangs();
 			twttr.widgets.load();
+      $('body').attr('style', '');
 			$("html, body").animate({ scrollTop: "0" }, 200);
 		}
 	});

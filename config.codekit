@@ -3769,6 +3769,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/javascripts\/jquery.parallax.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/javascripts\/jquery.parallax.min.js",
+		"outputAbbreviatedPath": "\/assets\/javascripts\/min\/jquery.parallax.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/javascripts\/libs\/historyjs\/amplify.store.js": {
 		"fileType": 64,
 		"ignore": 0,
