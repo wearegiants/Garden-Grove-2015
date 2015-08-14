@@ -188,10 +188,6 @@ hr {
           transition: 300ms ease;
 }
 
-#header li .sub-menu li:hover a {
-  background: #045477;
-}
-
 #header li .sub-menu li:last-child a {
   border-bottom: none;
 }
@@ -1013,6 +1009,26 @@ footer i {
   width: 100%;
   height: 100%;
   margin: 0 !important;
+}
+
+#header #flags {
+  width: 150px;
+  padding-right: 10px;
+}
+
+#header #flags li {
+  display: block;
+  width: 25% !important;
+  padding: 10px !important;
+  width: 35px !important;
+  padding-right: 15px;
+}
+
+#header #flags li a {
+  color: #fff !important;
+  display: block !important;
+  border: none;
+  padding: 0;
 }
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */

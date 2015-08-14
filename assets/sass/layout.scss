@@ -203,7 +203,7 @@ hr {
 }
 
 #header li .sub-menu li:hover a {
-  background: $lateNight;
+  //background: $lateNight;
 }
 
 #header li .sub-menu li:last-child a {
@@ -1027,4 +1027,25 @@ footer i {
 
 
 
+}
+
+#header #flags {
+  width: 150px;
+  padding-right: 10px;
+}
+
+#header #flags li {
+  display:block;
+  width: 25%!important;  
+  padding: 10px!important;
+  width: 35px!important;
+  padding-right: 15px;;
+  
+}
+
+#header #flags li a {
+  color: #fff!important;
+  display: block!important;
+  border: none;
+  padding: 0;
 }
