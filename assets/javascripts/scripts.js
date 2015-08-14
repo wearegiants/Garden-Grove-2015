@@ -70,6 +70,7 @@ SmartAjax_load('/assets/javascripts', function(){
     animation:   {opacity:'show',height:'show'},
   });
   
+
   $('#scene').parallax({
     forceHeight: false
   });
