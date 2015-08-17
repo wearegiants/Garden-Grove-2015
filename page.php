@@ -2,16 +2,11 @@
 <?php get_template_part('templates/page', 'header'); ?>
 <div class="frame" id="main-wrap">
 
-<div id="map-deal" class="bit-1">
+
+<?php if ( has_post_thumbnail() ): ?>
 <?php the_post_thumbnail( 'original', array( 'class' => 'img-responsive' ) ); ?>
-<?php if( have_rows('map_notes') ):
-while ( have_rows('map_notes') ) : the_row(); ?>
-
-<div class="bit-5 item"><?php the_sub_field('map_notes_node'); ?></div>
-
-<?php endwhile;
-else : endif; ?>
-</div>
+<hr class="invisible">
+<?php endif; ?>
 
 <div class="bit-66" id="main">
 <?php get_template_part('templates/page', 'content'); ?>
