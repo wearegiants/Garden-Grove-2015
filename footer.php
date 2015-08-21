@@ -4,6 +4,10 @@
 <footer>
   <div class="frame">
     <?php dynamic_sidebar( 'footer-widget-area' ); ?>
+    <div class="bit-1">
+      <hr class="divider">
+      <a href="http://2014.ggopenstreets.com">Re:Imagine Garden Grove 2014 Website</a>
+      </div>
   </div>
 </footer><!-- Footer-->
 
