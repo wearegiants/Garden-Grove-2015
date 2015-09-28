@@ -728,7 +728,7 @@ footer i {
 
 .event-group {
   border-top: 1px solid #F9C7B0;
-  color: #ED743B;
+  color: $duskBlue;
 }
 
 .event-group .event-desc {
@@ -744,7 +744,7 @@ footer i {
 
 .event-group .event-desc h3 {
   letter-spacing: 1px;
-  color: #50AB42;
+  color: $lateNight;
 }
 
 .event-group .event-item {
@@ -940,15 +940,15 @@ footer i {
 }
 
 .event-item .apple {
-  background-image: url(/assets/img/gg_shopping.png);
-}
-
-.event-item .shopping {
   background-image: url(/assets/img/gg_food.png);
 }
 
-.event-item .music {
+.event-item .shopping {
   background-image: url(/assets/img/gg_shopping.png);
+}
+
+.event-item .music {
+  background-image: url(/assets/img/gg_music.png);
 }
 
 .event-item .food {
