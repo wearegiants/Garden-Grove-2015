@@ -7,6 +7,7 @@ require_once locate_template('/lib/themewrangler.class.php');
 include_once locate_template('/lib/advanced-custom-fields/acf.php' );
 include_once locate_template('/lib/acf-gallery/acf-gallery.php' );
 include_once locate_template('/lib/acf-repeater/acf-repeater.php' );
+include_once locate_template('/lib/acf-options-page/acf-options-page.php' );
 include_once locate_template('/lib/acf-flexible-content/acf-flexible-content.php' );
 include_once locate_template('/lib/acf-field-date-time-picker/acf-date_time_picker.php' );
 

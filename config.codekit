@@ -3769,6 +3769,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/old icons\/gg_active.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3775,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_active_bike.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6195,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_bike.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_bike.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_active_loading.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4105,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_loading.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_loading.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_active_run.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5454,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_run.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_active_run.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_artworkshops.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5139,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_artworkshops.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_artworkshops.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_food.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4234,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_food.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_food.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_music.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18645,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_music.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_music.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/old icons\/gg_shopping.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5070,
+		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_shopping.png",
+		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_shopping.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/javascripts\/jquery.parallax.min.js": {
 		"fileType": 64,
 		"ignore": 0,
