@@ -1029,6 +1029,9 @@ footer i {
   display: block !important;
   border: none;
   padding: 0;
+  width: 18px;
+  height: 14px;
+  background-image: url("/assets/img/flags.png");
 }
 
 hr.divider {

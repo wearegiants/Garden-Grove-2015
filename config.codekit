@@ -3681,6 +3681,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/flags.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2592,
+		"inputAbbreviatedPath": "\/assets\/img\/flags.png",
+		"outputAbbreviatedPath": "\/assets\/img\/flags.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/gg_active.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3853,6 +3864,17 @@
 		"initialSize": 5070,
 		"inputAbbreviatedPath": "\/assets\/img\/old icons\/gg_shopping.png",
 		"outputAbbreviatedPath": "\/assets\/img\/old icons\/gg_shopping.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/Unknown.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30900,
+		"inputAbbreviatedPath": "\/assets\/img\/Unknown.png",
+		"outputAbbreviatedPath": "\/assets\/img\/Unknown.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
